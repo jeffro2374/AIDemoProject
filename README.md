@@ -104,6 +104,25 @@ The demo uses a simple **Hotel Reservation System** with:
 - Reservation viewing and cancellation
 - Site navigation
 
+### Running the App Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/jeffro2374/AIDemoProject.git
+cd AIDemoProject
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the server
+npm start
+
+# 4. Open in browser
+# Visit http://localhost:3000
+```
+
+The app will be running at **http://localhost:3000**. You can browse hotels, search by location, book rooms, and manage reservations.
+
 ## CI/CD Integration
 
 Add to your pipeline:
