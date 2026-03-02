@@ -105,10 +105,3 @@ All code was reviewed and understood before committing. The developer remained r
 | Average tests per file change | 8 (50% reduction) |
 | Best case reduction | 75% (4 tests instead of 16) |
 
-## Future Enhancements
-
-1. **Incremental map updates** — Only re-run changed tests when regenerating
-2. **CI artifact caching** — Store map between pipeline runs
-3. **Branch comparison** — Compare against target branch, not just HEAD
-4. **Parallel execution** — Run affected tests in parallel
-5. **Integration with test frameworks** — Jest, Mocha, pytest adapters
