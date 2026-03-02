@@ -4,8 +4,8 @@
 
 In large codebases, running the full test suite for every code change is slow and wasteful. A typical scenario:
 
-- **4,000+ E2E tests** taking 45+ minutes to run
-- Developers wait unnecessarily for tests unrelated to their changes
+- ** In extreme example of a mature framework : 4,000+ E2E tests** taking 45+ minutes to run
+- Developers wait unnecessarily for tests unrelated to their changes -> No fast seedback
 - CI pipelines become bottlenecks, slowing down the entire team
 - No visibility into which files lack test coverage
 
